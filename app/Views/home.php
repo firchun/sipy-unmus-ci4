@@ -18,7 +18,19 @@
 							
 						</div>
 <!--begin::Container-->
-<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl mt-5">
+<div id="kt_content_container" class=" container-xxl mt-5">
+<div class="content flex-row-fluid mb-xl-8" id="kt_content">
+	<div class="card card-xxl-stretch " >
+		<div class="card-body overlow-hidden text-center">
+		<h1 class="text-info">SELAMAT DATANG</h1>
+			<div class="my-3">
+				<img src="http://118.97.36.18:8008/sipy/sistem/img/unmus.png" height="300" alt="unmus-logo">
+			</div>
+			
+			<h2 class="text-info"> Sistem Informasi Yudisium Universitas Musamus Merauke</h2>
+		</div>
+	</div>
+	</div>
 						<!--begin::Post-->
 						<div class="content flex-row-fluid" id="kt_content">
 							<!--begin::Row-->
@@ -32,7 +44,7 @@
 											<!--begin::Hidden-->
 											<div class="d-flex flex-stack flex-wrap flex-grow-1 px-9 pt-9 pb-3">
 												<div class="me-2">
-													<span class="fw-bolder text-gray-800 d-block fs-3">Sales</span>
+													<span class="fw-bolder text-gray-800 d-block fs-3">Wisuda</span>
 													<span class="text-gray-400 fw-bold">Oct 8 - Oct 26 21</span>
 												</div>
 												<div class="fw-bolder fs-3 text-primary">$15,300</div>
