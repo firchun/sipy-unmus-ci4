@@ -8,4 +8,8 @@ class Home extends BaseController
     {
         return view('home');
     }
+    public function jadwal()
+    {
+        return view('jadwal_wisuda');
+    }
 }
