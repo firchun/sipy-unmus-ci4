@@ -6,10 +6,17 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('home');
+        $data['title']='Home';
+        return view('home',$data);
     }
     public function jadwal()
     {
-        return view('jadwal_wisuda');
+        $data['title']='Jadwal Wisuda';
+        return view('jadwal_wisuda',$data);
+    }
+    public function peserta()
+    {
+        $data['title']='Peserta Wisuda';
+        return view('peserta_wisuda',$data);
     }
 }
