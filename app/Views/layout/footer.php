@@ -61,7 +61,7 @@
 		<script src="<?php echo base_url()?>/public/assets/js/custom/apps/user-management/roles/view/view.js"></script>
 		<script src="<?php echo base_url()?>/public/assets/js/custom/apps/user-management/roles/view/update-role.js"></script>
 		
-
+		<script src="<?php echo base_url()?>/public/assets/js/custom/modals/new-target.js"></script>
 		<script src="<?php echo base_url('public/assets/js/custom/widgets.js'); ?>"></script>
 		<script src="<?php echo base_url('public/assets/js/custom/apps/chat/chat.js'); ?>"></script>
 		<script src="<?php echo base_url('public/assets/js/custom/modals/create-app.js'); ?>"></script>
