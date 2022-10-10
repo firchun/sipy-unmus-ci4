@@ -14,7 +14,7 @@
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Keenthemes | Metronic" />
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="<?php echo base_url('public/assets/media/logos/favicon.ico'); ?>" />
+		<link rel="shortcut icon" href="http://118.97.36.18:8008/sipy/sistem/img/unmus.png" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
@@ -58,9 +58,9 @@
 							<!--end::Heaeder menu toggle-->
 							<!--begin::Header Logo-->
 							<div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-								<a href="../../demo2/dist/index.html">
-									<img alt="Logo" src="<?php echo base_url('public/assets/media/logos/logo-demo2.png'); ?>" class="logo-default h-25px" />
-									<img alt="Logo" src="<?php echo base_url('public/assets/media/logos/logo-demo2-sticky.png'); ?>" class="logo-sticky h-25px" />
+								<a href="<?php echo base_url()?>/public/">
+									<img alt="Logo" src="http://118.97.36.18:8008/sipy/sistem/img/unmus.png" class="logo-default h-25px" />
+									<img alt="Logo" src="http://118.97.36.18:8008/sipy/sistem/img/unmus.png" class="logo-sticky h-25px" />
 								</a>
 							</div>
 							<!--end::Header Logo-->
