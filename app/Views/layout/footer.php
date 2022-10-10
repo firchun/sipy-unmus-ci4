@@ -45,7 +45,7 @@
 		</div>
 		<!--end::Scrolltop-->
 		<!--end::Main-->
-		<script>var hostUrl = "assets/";</script>
+		<script>var hostUrl = "<?php echo base_url()?>/public/assets/";</script>
 		<!--begin::Javascript-->
 		<!--begin::Global Javascript Bundle(used by all pages)-->
 		<script src="<?php echo base_url('public/assets/plugins/global/plugins.bundle.js'); ?>"></script>
@@ -54,7 +54,14 @@
 		<!--begin::Page Vendors Javascript(used by this page)-->
 		<script src="<?php echo base_url('public/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js'); ?>"></script>
 		<!--end::Page Vendors Javascript-->
+		<!--begin::Page Vendors Javascript(used by this page)-->
+		<script src="<?php echo base_url()?>/public/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<!--end::Page Vendors Javascript-->
 		<!--begin::Page Custom Javascript(used by this page)-->
+		<script src="<?php echo base_url()?>/public/assets/js/custom/apps/user-management/roles/view/view.js"></script>
+		<script src="<?php echo base_url()?>/public/assets/js/custom/apps/user-management/roles/view/update-role.js"></script>
+		
+
 		<script src="<?php echo base_url('public/assets/js/custom/widgets.js'); ?>"></script>
 		<script src="<?php echo base_url('public/assets/js/custom/apps/chat/chat.js'); ?>"></script>
 		<script src="<?php echo base_url('public/assets/js/custom/modals/create-app.js'); ?>"></script>
